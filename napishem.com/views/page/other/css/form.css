@@ -1,0 +1,208 @@
+*{margin:0; padding:0;}
+html, body{width:100%; height:100%;}
+a img{border:none;}
+a:hover{text-decoration:none;}
+
+.clearfix:after{content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; overflow: hidden;}
+
+#wrapper{width:100%; min-height:100%; position:relative; overflow: hidden;}
+.cont{width:900px; position:relative; margin:0 auto;}
+
+body{min-width:1000px; font:12px Arial, Helvetica, sans-serif; font-family: 'PT Sans', sans-serif;}
+
+#header{height:100px; background-color:#009591;}
+#header #logo{display:block; width:177px; height:57px; background:url(http://img.napishem.com/landing/right-form/logo.png) center center no-repeat; position:absolute; left:19px; top:19px;}
+#header .header-contacts{display:block; position:absolute; right:10px; top:16px; color:#fff; text-transform:uppercase; font-weight: bold;}
+#header .header-contacts span{font-size:28px; display:block; margin:2px 0 2px;}
+
+.content-left{width: 415px; float: left; padding-top: 28px; margin-left: 10px;}
+.content-left .cl-head{font-size: 36px; font-weight: bold; color: #000000; margin-bottom: 13px;}
+.content-left .cl-orange-block{-moz-box-sizing: border-box; box-sizing: border-box; width: 454px; height: 70px; background: url('http://img.napishem.com/landing/right-form/orange-block.png') no-repeat; padding: 12px 0 0 40px; font-size: 18px; font-weight: bold; color: #000; margin: 0 0 20px -3px;}
+
+.plus{display:block; float:left; width:295px; position:relative; padding-left:75px; height:73px;}
+.plus:before{content: " "; display:block; width:54px; height:54px; position:absolute; left:0; top:0; background: url('http://img.napishem.com/landing/right-form/sprite.png') no-repeat;}
+.plus.n1:before{background-position: 0 0;}
+.plus.n2:before{background-position: -54px 0;}
+.plus.n3:before{background-position: -108px 0;}
+.plus.n4:before{background-position: -162px 0;}
+.plus .pl_head{font-size:18px; font-weight: bold; padding-top:7px;}
+.plus .pl_text{font-size:14px; margin-top:1px;}
+.plus .pl_text a{display:inline-block; zoom:1; *display:inline; vertical-align:top; text-decoration:none; border-bottom:1px dotted #fc625f; color:#fc625f; line-height:1; padding-top:2px;}
+.plus .pl_text a:hover{border-color:transparent;}
+
+.call-timer{display: inline-block; background:url(http://img.napishem.com/landing/right-form/call-timer.png) no-repeat; display: inline-block; top: 2px; position: relative; margin-right: 7px;width:19px; height:23px;}
+
+.content-right{float: right; width: 388px; margin-right: 10px; padding-top: 20px;}
+.content-right .form-block{border: 3px solid #c8dae5; border-radius: 5px; padding: 23px 30px 23px; position: relative;}
+.content-right .form-block.with-girl:before{content: ""; display: block; width: 260px; height: 370px; position: absolute; left: -238px; top: 80px; background: url('http://img.napishem.com/landing/right-form/girl.png') no-repeat;}
+.content-right .form-head{font-size: 18px; font-weight: bold; color: #000000; text-transform: uppercase; margin-bottom: 20px;}
+.content-right .form-block .input-line{margin-bottom: 10px; position: relative;}
+.content-right .form-block .input-line.promo-line{display: none;}
+.content-right .form-block .input-line .promo-tipsy{border-bottom: 1px dotted;color: #0099CC;font-size: 14px;text-decoration: none; cursor: pointer; line-height: 1.1; position: absolute; right: 10px; top: 7px;}
+.content-right .form-block .input-line :last-child{margin-right: 0;}
+.content-right .form-block input[type=text],
+.content-right .form-block input[type=date],
+.content-right .form-block input[type=email],
+.content-right .form-block input[type=tel],
+.content-right .form-block select,
+.content-right .form-block textarea{display: inline-block; zoom:1; vertical-align: middle; width: 100%; -moz-box-sizing: border-box; box-sizing: border-box; border: none; background: #f2f2f2; height: 32px; padding: 0 10px; border-radius: 2px; font-size: 14px; font-family: 'PT Sans', sans-serif; border: 2px solid #f2f2f2;}
+.content-right .form-block input[type=text]:hover,
+.content-right .form-block input[type=date]:hover,
+.content-right .form-block input[type=email]:hover,
+.content-right .form-block input[type=tel]:hover,
+.content-right .form-block select:hover,
+.content-right .form-block textarea:hover{border-color:#d9d9d9;}
+.content-right .form-block input[type=text]:focus,
+.content-right .form-block input[type=date]:focus,
+.content-right .form-block input[type=email]:focus,
+.content-right .form-block input[type=tel]:focus,
+.content-right .form-block select:focus,
+.content-right .form-block textarea:focus{outline:none; border-color:#98b9cd; color:#000;}
+.content-right .form-block input.date-input{background: url('http://img.napishem.com/landing/right-form/date-icon.png') right 6px no-repeat #f2f2f2;}
+.content-right .form-block textarea{padding: 9px 10px; overflow: auto; resize: none; height: 90px;}
+.content-right .form-block input.short-input{width: 154px; margin-right: 10px;}
+.content-right .form-block input.very-short-input{width: 80px; margin-right: 10px;}
+.content-right .form-block a{font-size: 14px; color: #0099cc; text-decoration: none;}
+.content-right .form-block a span{border-bottom: 1px dotted #0099cc; line-height: 1.1; display: inline-block; zoom:1;}
+.content-right .form-block a:hover span{border-color: transparent;}
+.content-right .form-block a.delete-input{color: #000; margin-right: 5px; margin-left: 10px;}
+.content-right .form-block a.delete-input span{border-color: #000;}
+.content-right .form-block .file-input{line-height: 36px; text-align: right;}
+.content-right .form-hidden{display: none;}
+.content-right .form-show-more{display: inline-block; position: relative; margin: 5px 0; padding-left: 25px;}
+.content-right .form-show-more:before{content: " "; display: block; width: 18px; height: 18px; background: url('http://img.napishem.com/landing/right-form/sprite.png') -37px -55px no-repeat; position: absolute; left: 0; top: 50%; margin-top: -9px;}
+.content-right .form-show-more.open:before{background-position: -56px -55px;}
+.content-right .btn{display: block; float: right; width: 185px; height: 47px; line-height: 47px; box-shadow: inset 0 -2px #b74745; background: #fc625f; border: none; cursor: pointer; font-size: 14px; font-weight: bold; color: #fff; text-transform: uppercase; font-family: 'PT Sans', sans-serif; border-radius: 3px; position: relative;}
+.content-right .btn:hover{opacity: 0.9;}
+.content-right .btn:active{top: 1px;}
+.content-right .promo-link{float: left; margin-top: 12px; text-transform: none; font-size: 14px;}
+.content-right .form-bot{height: 47px; margin-top: 20px;}
+
+.tipsy { padding: 5px; font-size: 10px; position: absolute; z-index: 100000; }
+.tipsy-inner { font-family: Verdana,sans-serif; padding: 5px 8px 4px 8px; background-color: black; color: white; max-width: 400px; text-align: center; }
+/* jQuery.tipsy START */
+.tipsy { font-size: 10px; position: absolute; padding: 5px; z-index: 100000; }
+.tipsy-inner { background-color: #fff; color: #000; max-width: 200px; padding: 5px 8px 4px 8px; text-align: center; word-wrap:break-word; }
+.tipsy-inner { border: 4px solid #eae6d5; border-radius: 5px; width: 420px; font-size: 14px; color: #000; padding-top: 10px; padding-bottom: 10px; font-family: 'PTS'; }
+.tipsy-arrow { position: absolute; width: 0; height: 0; border: 5px solid transparent; }
+.tipsy-arrow-n { border-bottom-color: #eae6d5; }
+.tipsy-arrow-s { border-top-color: #eae6d5; }
+.tipsy-arrow-e { border-left-color: #eae6d5; }
+.tipsy-arrow-w { border-right-color: #eae6d5; }
+.tipsy-n .tipsy-arrow, .tipsy-nw .tipsy-arrow, .tipsy-ne .tipsy-arrow { top: 0; border-top: none;  opacity: 1; }
+.tipsy-s .tipsy-arrow, .tipsy-sw .tipsy-arrow, .tipsy-se .tipsy-arrow { bottom: 0; border-bottom: none; }
+.tipsy-n .tipsy-arrow, .tipsy-s .tipsy-arrow { left: 50%; margin-left: -5px; }
+.tipsy-nw .tipsy-arrow, .tipsy-sw .tipsy-arrow { left: 10px; }
+.tipsy-ne .tipsy-arrow, .tipsy-se .tipsy-arrow { right: 10px; }
+.tipsy-e .tipsy-arrow, .tipsy-w .tipsy-arrow { top: 50%; margin-top: -5px; }
+.tipsy-e .tipsy-arrow { right: 0; border-right: none; }
+.tipsy-w .tipsy-arrow { left: 0; border-left: none; }
+.tipsy .tipsy_left {text-align: left;display:block;}
+
+.tipsy .tipsy_left {text-align: left;display:block;}
+
+.popup{display:none; width:100%; height:100%; position:fixed; left:0; top:0; z-index:100; font-size: 14px;}
+.popup .popup_shadow{display:block; width:100%; height:100%; background-color:#000; opacity:0.6; filter:alpha(opacity=60);  position:absolute; left:0; top:0;}
+.popup table,.popup table td{width:100%; height:100%; vertical-align:middle;}
+.popup .popup_b{margin:0 auto; position:relative; width:492px; border:4px solid #eae6d5; border-radius:5px; background-color:#fff; z-index:101; box-shadow:0 0 10px #666;}
+.popup .popup_b .close_popup{display:block; width:28px; height:28px; position:absolute; right:-50px; top:-50px; background:url(http://img.napishem.com/index/close_popup.png) center center no-repeat;}
+.popup .popup_b .popup_head{border-bottom:1px solid #eae6d5; height:77px; line-height:77px; padding:0 38px; font-size:24px; font-family:'PTSb'; margin-bottom:20px;}
+.popup .popup_b .popup_line{margin:0 38px 10px 38px; position:relative; padding-left:85px; height:50px; line-height:50px;}
+.popup .popup_b .popup_line .label{position:absolute; left:0; top:0; color:#000; text-transform:uppercase; font-family:'PTSb';}
+.popup .popup_b .popup_line .recover{display:block; position:absolute; right:18px;; top:0; color:#0099cc; line-height:1; top:17px;}
+.popup .popup_b .popup_line input[type=text],.popup .popup_b .popup_line input[type=password]{border:2px solid #f2f2f2; padding:0 19px; height:46px; background-color:#f2f2f2; width:291px; border-radius:5px; font-size:14px; font-family:'PTSb';}
+.popup .popup_b .popup_line input[type=text]:hover,.popup .popup_b .popup_line input[type=password]:hover{border-color:#d9d9d9;}
+.popup .popup_b .popup_line input[type=text]:focus,.popup .popup_b .popup_line input[type=password]:focus{outline:none; border-color:#98b9cd; color:#000;}
+.popup .popup_b .popup_options{height:50px; line-height:50px; padding-bottom:30px; padding:10px 38px 30px; border-bottom:1px solid #eae6d5; margin-bottom:30px;}
+.popup .popup_b .popup_options .sign_up{display:block; float:right; height:48px; line-height:48px; background-color:#fc625f; border-bottom:2px solid #e0413e; text-align:center; color:#fff; font-size:18px; text-transform:uppercase; text-decoration:none; width:220px; font-family:'PTSb'; border-radius:4px;}
+.popup .popup_b .popup_options .sign_up:active{position:relative; top:1px;}
+.popup .popup_b .popup_options .sign_in{color:#0099cc; font-family:'PTSb';}
+.popup .popup_b .popup_social{text-align:right; padding:0 38px 30px; position:relative;}
+.popup .popup_b .popup_social span{position:absolute; left:38px; top:0; line-height:34px;}
+.popup .popup_b .popup_social a{display:inline-block; zoom:1; *display:inline; vertical-align:top; width:34px; height:34px; margin-left:7px;}
+.popup .popup_b .popup_social a.s1{background:url(http://img.napishem.com/index/popup_social1.png) center center no-repeat;}
+.popup .popup_b .popup_social a.s2{background:url(http://img.napishem.com/index/popup_social2.png) center center no-repeat;}
+.popup .popup_b .popup_social a.s3{background:url(http://img.napishem.com/index/popup_social3.png) center center no-repeat;}
+.popup .popup_b .popup_social a.s4{background:url(http://img.napishem.com/index/popup_social4.png) center center no-repeat;}
+.popup .popup_b .popup_social a.s5{background:url(http://img.napishem.com/index/popup_social5.png) center center no-repeat;}
+.popup .popup_b .popup_social a.s6{background:url(http://img.napishem.com/index/popup_social6.png) center center no-repeat;}
+
+
+.popup{display:none; width:100%; height:100%; position:fixed; left:0; top:0; z-index:100;}
+.popup .popup_shadow{display:block; width:100%; height:100%; background-color:#000; opacity:0.6; filter:alpha(opacity=60);  position:absolute; left:0; top:0;}
+.popup table,.popup table td{width:100%; height:100%; vertical-align:middle;}
+.popup .popup_b{margin:0 auto; position:relative; width:492px; border:4px solid #eae6d5; border-radius:5px; background-color:#fff; z-index:101; box-shadow:0 0 10px #666;}
+.popup_author_chose .popup_b{text-align:center; font-size:18px; font-family:'ptsb'; padding:50px 0 55px;}
+.popup .btn{margin:25px auto 0; display:block; width:238px; text-align:center; font-size:18px; font-family:'PTSb'; color:#fff; text-decoration:none; background-color:#fc625f; border-bottom:2px solid #e0413e; border-top:2px solid #fc625f; border-radius:4px; height:40px; line-height:40px; text-transform:uppercase;}
+.popup .btn:hover{background-color:#ee5b58; border-top-color:#ee5b58;}
+.popup .btn:active{background-color:#dc4c49; border-top-color:#c8302d; border-bottom-color:#dc4c49;}
+.popup .popup_b .close_popup{display:block; width:28px; height:28px; position:absolute; right:-50px; top:-50px; background:url(http://img.napishem.com/landing/close_popup.png) center center no-repeat;}
+
+.popup_preload{text-align:center;}
+.popup_preload .popup_b{padding:50px 0 55px;}
+.popup_preload .line1{font-size:18px; color:#000; font-family:'ptsb';}
+.popup_preload .line2{font-size:14px; font-family:'pts'; line-height:50px; margin-bottom:5px;}
+
+.popup_find_price .sb_head{border-bottom:1px solid #eae6d5; text-align:left; padding:0 0 0 36px; line-height:77px;font-size:24px; margin-bottom:22px;}
+.popup_find_price p{margin:0 36px; font-size:14px; font-family:'pts'; line-height:1.5;}
+.popup_find_price p.verdict{font-size:18px; font-family:'ptsb'; line-height:1.2; margin-top:16px;}
+.popup_find_price p.verdict .price{display:block; color:#fc625f;}
+.popup_find_price .fp_bot{border-top:1px solid #eae6d5; padding:0 36px; height:110px;}
+.popup_find_price .fp_bot .btn{margin:0; float:right; margin-top:30px;}
+.popup_find_price .fp_bot p{margin:0; margin-top:35px; line-height:1.3;}
+
+.bot_link{height:65px; border-top:1px solid #e3e3e3; position:fixed; width:100%; background-color:#f2efe1; z-index:80; left:0; bottom:-65px; box-shadow:0 0 3px #666; text-align:center; padding-top:18px;}
+.bot_link a {padding-top:10px;border:none; background:none; display:inline-block; width:260px; text-align:center; font-size:18px; font-family:'PTSb'; color:#fff; text-decoration:none; background-color:#fc625f; border-bottom:2px solid #e0413e; border-top:2px solid #fc625f; border-radius:4px; height:35px; cursor:pointer;}
+.bot_link a:hover{background-color:#ee5b58; border-top-color:#ee5b58;}
+.bot_link a:active{background-color:#dc4c49; border-top-color:#c8302d; border-bottom-color:#dc4c49;}
+
+.inp_line .right .pops{position:absolute; /*left:0; top: 50px;*/ height: auto; padding: 0 19px 0 19px; border: 2px solid #f2f2f2; background: #f2f2f2; color: #000; font: 14px/46px 'PTSb'; border-radius: 5px; outline:none; border-color:#98b9cd; color:#000; width:551px; z-index:101;}
+.inp_line .right .pops ul{padding: 10px 0;}
+.inp_line .right .pops ul li{line-height: 26px; cursor: pointer;}
+.inp_line .right .pops ul li:hover{color:#fc625f;}
+#background{width: 100%; height: 100%; position: fixed; z-index: 1; display: none;}
+
+.popup_find_price .sb_head {
+    text-align: center;
+    padding: 0 0 0 0px;
+    line-height: 55px;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 0px;
+    border: none;
+}
+
+.work_hard {
+    margin-top: 30px;
+    position: relative;
+    height: 120px;
+    background-color: #ffbc5a;
+    line-height: 120px;
+    font-size: 30px;
+    color: #6c440b;
+    text-align: center;
+    font-family: 'PTSb';
+}
+.jq-selectbox.phone-code {
+    width: 154px!important;
+    margin-right: 10px;
+}
+#ui-datepicker-div{
+    z-index:101!important;
+}
+.error_msg {
+    display:none;
+}
+.error input {
+    border: 2px solid #f2f2f2;
+    border-color: #fc625f !important;
+}
+
+/*.popup_find_price .sb_head {
+	border-bottom: 1px solid #eae6d5;
+	text-align: left;
+	padding: 0 0 0 36px;
+	line-height: 77px;
+	font-size: 24px;
+	margin-bottom: 22px;
+}*/

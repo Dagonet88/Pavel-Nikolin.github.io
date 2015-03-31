@@ -1,0 +1,298 @@
+/*@font-face {
+    font-family: 'PTS';
+    src: url('http://www.napishem.com/skins/default/fonts/pt_sans-web-regular.eot');
+    src: url('http://www.napishem.com/skins/default/fonts/pt_sans-web-regular.eot') format('embedded-opentype'),
+    url('http://www.napishem.com/skins/default/fonts/pt_sans-web-regular.woff') format('woff'),
+    url('http://www.napishem.com/skins/default/fonts/pt_sans-web-regular.ttf') format('truetype'),
+    url('http://www.napishem.com/skins/default/fonts/pt_sans-web-regular.svg#PTS') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PTSb';
+    src: url('http://www.napishem.com/skins/default/fonts/pt_sans-web-bold.eot');
+    src: url('http://www.napishem.com/skins/default/fonts/pt_sans-web-bold.eot') format('embedded-opentype'),
+    url('http://www.napishem.com/skins/default/fonts/pt_sans-web-bold.woff') format('woff'),
+    url('http://www.napishem.com/skins/default/fonts/pt_sans-web-bold.ttf') format('truetype'),
+    url('http://www.napishem.com/skins/default/fonts/pt_sans-web-bold.svg#PTSb') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PTSi';
+    src: url('http://www.napishem.com/skins/default/fonts/pt_sans-web-italic.eot');
+    src: url('http://www.napishem.com/skins/default/fonts/pt_sans-web-italic.eot') format('embedded-opentype'),
+    url('http://www.napishem.com/skins/default/fonts/pt_sans-web-italic.woff') format('woff'),
+    url('http://www.napishem.com/skins/default/fonts/pt_sans-web-italic.ttf') format('truetype'),
+    url('http://www.napishem.com/skins/default/fonts/pt_sans-web-italic.svg#PTSi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PTSbi';
+    src: url('http://www.napishem.com/skins/default/fonts/pt_sans-web-bolditalic.eot');
+    src: url('http://www.napishem.com/skins/default/fonts/pt_sans-web-bolditalic.eot') format('embedded-opentype'),
+    url('http://www.napishem.com/skins/default/fonts/pt_sans-web-bolditalic.woff') format('woff'),
+    url('http://www.napishem.com/skins/default/fonts/pt_sans-web-bolditalic.ttf') format('truetype'),
+    url('http://www.napishem.com/skins/default/fonts/pt_sans-web-bolditalic.svg#PTSbi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+*{margin:0; padding:0;}
+a img{border:none;}
+a:hover{text-decoration:none;}
+.clear{clear:both;}
+html,body{width:100%; height:100%;}
+
+body{ font:14px Arial, Helvetica, sans-serif; font-family:'PTS'; color:#000; min-width:1000px;}
+
+#wrapper{width:100%; min-height:100%; position:relative;}
+.cont{width:900px; position:relative; margin:0 auto;}
+
+/*#header{height:427px; background:url(http://img.napishem.com/index/header_light.jpg) center top no-repeat #009591; position:relative;}*/
+#header{height:427px; background-color: #009591; position:relative;}
+#header .cont{width:980px; height:427px;}
+#header #logo{display:block; width:182px; height:110px; background:url(http://img.napishem.com/index/logo.png) center center no-repeat; position:absolute; left:0;}
+#header .h_work{display:block; padding-left:32px; background:url(http://img.napishem.com/index/work_icon.png) left center no-repeat; color:#fff; font-size:14px; position:absolute; left:252px;top:48px;}
+#header .h_contacts{display:block; position:absolute; left:495px; top:27px; font-family:'PTSb'; color:#fff; text-transform:uppercase; font-size:12px;}
+#header .h_contacts span{font-size:24px; display:block; margin:2px 0 0;}
+#header .h_contacts a{color:#fff; font-family:'PTS'; font-size:14px; text-transform:none;}
+#header .h_sign{display:block; padding-left:20px; background:url(http://img.napishem.com/index/login_lock.png) left center no-repeat; position:absolute; right:0; top:47px; color:#fff;}
+#header .masha{display:block; width:285px; height:356px; position:absolute; right:34px; bottom:0;}
+#header .masha img{border:none;}
+#header .slogan1{display:block; font-size:42px; font-family: 'PTSb'; color:#fff; padding-top:150px; margin-left:40px; line-height:1; margin-bottom:12px;}
+#header .slogan2{font-family: 'PTSb'; font-size:18px; color:#fff; margin-bottom:24px;margin-left:40px; }
+#header .make_deal{display:block;height:58px; width:260px; text-align:center; line-height:58px; font-family: 'PTSb'; font-size:24px; color:#6c440b; text-transform:uppercase; border-bottom:2px solid #077776; background-color:#ffbc5a; position:relative; border-radius:4px; text-decoration:none;margin-left:40px; }
+#header .make_deal:hover{background-color:#ffcd5a;}
+#header .make_deal:active{border-top:2px solid #077776; border-bottom:none; background-color:#eba134; line-height:58px;}
+#header .barr{display:block; width:46px; height:23px; background:url(http://img.napishem.com/index/header_barr.png) center center no-repeat; position:absolute; top:100%; left:50%; margin-left:-23px;}
+
+.sb_head{display:block; text-align:center; font-size:36px; color:#000; font-family: 'PTSb'; line-height:1; padding-top:40px;}
+
+#price_form{display:block; background-color:#e3edf3; padding-bottom:84px;}
+#price_form .sb_head{margin-bottom:25px;}
+#price_form .form{display:block; width:890px; border:4px solid #98b9cd; background-color:#fff; min-height:100px; position:relative; padding-bottom:30px; border-radius:4px;}
+#price_form .form .trarr{display:block; width:36px; height:62px; background:url(http://img.napishem.com/index/form_rt.jpg); position:absolute; right:-4px; top:-4px;}
+
+#price_form .col1{width:260px; padding-right:10px;}
+#price_form .col2{width:155px; padding-right:10px;}
+#price_form .col3{width:210px; padding-right:10px;}
+#price_form .col4{text-align:center; width:160px;}
+.inp_line{clear:both; height:68px; line-height:68px; border-bottom:1px solid #e5edf2; margin:0 36px; font-size:18px;font-family: 'PTSb';}
+.inp_line.price_head{background-color:#f2f2f2; border:none; height:60px; line-height:60px; color:#000; text-transform:uppercase;font-family: 'PTSb'; margin:0; padding:0 36px; font-size:14px;}
+.inp_line .col1,.inp_line .col2,.inp_line .col3,.inp_line .col4{float:left;}
+.inp_line a.type{color:#0099cc;}
+.inp_line a.make_deal{color:#fc625f;}
+#price_form .hidden_lines{display:none;}
+#price_form .show_more_lines{text-align:center; height:69px; line-height:69px; border-bottom:1px solid #e5edf2; font-size:18px; font-family: 'PTSb'; margin:0 36px;}
+#price_form .show_more_lines a{text-decoration:none; border-bottom:1px dotted #000000; color:#000;}
+#price_form .show_more_lines a:hover{border-color:transparent;}
+
+#price_form .plus{display:block; float:left; width:295px; position:relative; padding-left:75px; height:73px;}
+#price_form .plus > i{display:block; width:54px; height:54px; position:absolute; left:0; top:0;}
+#price_form .plus.n2 > i{background:url(http://img.napishem.com/index/prop_icon2.png) center center no-repeat;}
+#price_form .plus.n4 > i{background:url(http://img.napishem.com/index/prop_icon4.png) center center no-repeat;}
+#price_form .plus .pl_head{font-size:18px; font-family:'PTSb'; padding-top:7px;}
+#price_form .plus .pl_text{font-size:14px; margin-top:1px;}
+#price_form .plus .pl_text a{display:inline-block; zoom:1; *display:inline; vertical-align:top; text-decoration:none; border-bottom:1px dotted #fc625f; color:#fc625f; line-height:1; padding-top:2px;}
+#price_form .plus .pl_text a:hover{border-color:transparent;}
+#price_form .pluses{padding-left: 36px; padding-top:25px;}
+#price_form .plus .pl_text span{display:inline-block; zoom:1; *display:inline; vertical-align:top; color:#fc625f; border-bottom:1px dotted #fc625f;}
+#price_form .plus.n2{margin-right:78px;}
+
+.work_hard{position:relative; height:120px; background-color:#ffbc5a; line-height:120px; font-size:30px; color:#6c440b; text-align:center; font-family:'PTSb';}
+.work_hard i{display:block; position:absolute; width:46px; height:23px; margin-left:-23px; left:50%; bottom:-23px; background:url(http://img.napishem.com/index/work_hard_barr.png) center top no-repeat;}
+
+.reviews_block{height:505px; overflow:hidden;}
+.reviews_block li{display:inline-block; zoom:1; *display:inline; vertical-align:top; list-style:none;}
+.reviews_block .sb_head{padding-top:50px; margin-bottom:35px;}
+.review_block{display:block; border:4px solid #eae6d5; border-radius:5px; width:420px; font-size:14px; color:#000; padding-top:30px; font-family:'PTS';}
+.review_block .rev_text{padding:0 35px; line-height:1.5; height:148px; overflow:hidden;}
+.review_block .rev_about{border-top:1px solid #eae6d5; padding:24px 35px 0; position:relative; height:70px;}
+.review_block .rev_img{position:absolute; top:25px; right:35px;}
+.review_block .rev_name{font-family:'PTSb';}
+.review_block .rev_type{font-family:'PTSi'; margin-top:5px;}
+.reviews_block .bx-pager{text-align:center; margin-top:30px;}
+.reviews_block .bx-pager .bx-pager-item{display:block; width:16px; height:16px; display:inline-block; zoom:1; *display:inline; margin:0 3px;}
+.reviews_block .bx-pager .bx-pager-item a{display:block; widows:16px; height:16px; text-indent:999px; overflow:hidden; background:url(http://img.napishem.com/index/slider_dots.png) left center no-repeat;}
+.reviews_block .bx-pager .bx-pager-item a:hover{background-position:center center;}
+.reviews_block .bx-pager .bx-pager-item a:active,.reviews_block .bx-pager .bx-pager-item a.active{background-position:center right;}
+
+.hiw{height:120px; background-color:#3f9fc9; line-height:120px;font-size:30px; font-family:'PTSb'; color:#fff; text-indent:17px;}
+.hiw a{color:#fff;}
+.hiw .cont{height:120px; }
+.hiw i{display:block; width:115px; height:172px; background:url(http://img.napishem.com/index/phone.png); position:absolute; right:148px; top:50%; margin-top:-86px;}
+.hiw a.gp{display:block; width:88px; height:30px; background:url(http://img.napishem.com/index/googleplay.png); position:absolute; right:42px; top:50%; margin-top:-15px;}
+
+.vk_plug{height:395px; background-color:#e3edf3;}
+.vk_plug .sb_head{padding-top:50px; margin-bottom:35px;}
+
+.pay_info,.pay_info .cont{height:120px; background-color:#26ae90; text-align:right;}
+.pay_info .left_text{font-size:14px; color:#fff; text-transform:uppercase; position:absolute; left:0; top:50%; font-family:'ptsb'; line-height:17px; margin-top:-17px; text-align:left;}
+.pay_info .pay_type{display:inline-block; zoom:1; *display:inline; vertical-align:top; margin-left:7px; padding-top:35px; width:100px; height:49px; position:relative;}
+.pay_info .pay_type .show_pay_popup{border-radius:3px; overflow:hidden; display:block; position:relative;}
+.pay_info .pay_type.visible .show_pay_popup i{display:block; width:100px; height:49px; background:url(http://img.napishem.com/index/pay_hover.png) center center no-repeat; position:absolute; left:0; top:0;}
+.pay_info .pay_type .show_pay_popup:hover i{display:block; width:100px; height:49px; background:url(http://img.napishem.com/index/pay_hover1.png) center center no-repeat; position:absolute; left:0; top:0;}
+
+.pay_popup{display:none; position:absolute; left:50%; top:104px; z-index:3; background-color:#fff; padding:20px 25px; border:4px solid #ffbc5a; text-align:left; font-size:14px; line-height:1.5; width:371px; border-radius:4px; box-shadow:0 0 20px #888; margin-left:-215px;}
+.pay_popup i{display:block; width:24px; height:16px; position:absolute; left:50%; top:-16px; background:url(http://img.napishem.com/index/pay_popup_tarr.png) center center no-repeat; margin-left:-12px;}
+.visible .pay_popup{display:block;}
+
+#footer{background-color:#19706f; overflow:hidden; color:#fff; font-family:'pts'; font-size:14px;}
+#footer .cont{width:980px; padding:20px 0;}
+#footer .copyright{position:absolute; left:0; top:40px; font-size:14px; }
+#footer .f_menu{margin-left:300px; top:20px; width:376px; border-left:1px dotted #3b8584; border-right:1px dotted #3b8584; padding:5px 0;}
+#footer .f_menu ul{list-style:none;}
+#footer .f_menu ul li{width:50%; float:left; display:block; text-indent:30px;}
+#footer .f_menu ul li a{color:#a9e0df; font-size:14px; color:#a9e0df; line-height:1.5;}
+#footer .f_contacts{position:absolute; left:715px; top:35px;}
+#footer .f_contacts a{color:#fff;}
+#footer .f_contacts .phone{font-size:18px; font-family:'ptsb';}
+#footer .f_social{position:absolute; right:0; top:37px;}
+#footer .f_social a{float:left;width:40px; height:40px; margin-left:10px;}
+#footer .f_social a.vk{background:url(http://img.napishem.com/index/soc_vk.png) center center no-repeat;}
+#footer .f_social a.tw{background:url(http://img.napishem.com/index/soc_tw.png) center center no-repeat;}
+
+#background{width: 100%; height: 100%; position: fixed; z-index: 1; display: none;}
+
+#advises{padding-bottom:70px; background-color:#f2efe0;}
+#advises .sb_head{margin-bottom:40px;}
+#advises .form{display:block; width:889px; margin:0 auto; border:4px solid #e0dbc4; position:relative; border-radius:4px; background-color:#fff;}
+#advises .form > i{display:block; width:35px; height:63px; background:url(http://img.napishem.com/index/form2_rt.jpg); position:absolute; right:-4px; top:-4px;}
+#advises .form table{width:100%;}
+#advises .form table td{padding:38px 38px 28px 38px; font-size:14px; color:#000; width:407px;}
+#advises .form table .col1{border-bottom:1px solid #e0dbc4; border-right:1px solid #e0dbc4;}
+#advises .form table .col2{border-bottom:1px solid #e0dbc4;}
+#advises .form table .col3{border-right:1px solid #e0dbc4;}
+#advises .form table ul{margin-left:20px;}
+#advises .form table ul li{margin-bottom:10px;}
+#advises .form table ul li a{color:#0099cc;}
+#advises .form table .ad_head{text-transform:uppercase; margin-bottom:10px; font-family:'ptsb';}
+#advises .form table p{margin-bottom:10px;}
+#advises .form table p a{color:#000; font-family:'ptsb';}
+#advises .form table .hover_block{border:2px solid #f5f3e8; border-radius:4px; background-color:#f5f3e8; margin-bottom:10px; padding:10px 20px;  font-family:'ptsb';}
+#advises .form table .hover_block p{margin-bottom:0;}
+#advises .form table .hover_block a{color:#fc625f; text-transform:uppercase; margin-bottom:4px;}
+#advises .form table .hover_block:hover{border-color:#fc625f; background-color:#fff;}
+
+.popup{display:none; width:100%; height:100%; position:fixed; left:0; top:0; z-index:100;}
+.popup .popup_shadow{display:block; width:100%; height:100%; background-color:#000; opacity:0.6; filter:alpha(opacity=60);  position:absolute; left:0; top:0;}
+.popup table,.popup table td{width:100%; height:100%; vertical-align:middle;}
+.popup .popup_b{margin:0 auto; position:relative; width:492px; border:4px solid #eae6d5; border-radius:5px; background-color:#fff; z-index:101; box-shadow:0 0 10px #666;}
+.popup .popup_b .close_popup{display:block; width:28px; height:28px; position:absolute; right:-50px; top:-50px; background:url(http://img.napishem.com/index/close_popup.png) center center no-repeat;}
+.popup .popup_b .popup_head{border-bottom:1px solid #eae6d5; height:77px; line-height:77px; padding:0 38px; font-size:24px; font-family:'PTSb'; margin-bottom:20px;}
+.popup .popup_b .popup_line{margin:0 38px 10px 38px; position:relative; padding-left:85px; height:50px; line-height:50px;}
+.popup .popup_b .popup_line .label{position:absolute; left:0; top:0; color:#000; text-transform:uppercase; font-family:'PTSb';}
+.popup .popup_b .popup_line .recover{display:block; position:absolute; right:18px;; top:0; color:#0099cc; line-height:1; top:17px;}
+.popup .popup_b .popup_line input[type=text],.popup .popup_b .popup_line input[type=password]{border:2px solid #f2f2f2; padding:0 19px; height:46px; background-color:#f2f2f2; width:291px; border-radius:5px; font-size:14px; font-family:'PTSb';}
+.popup .popup_b .popup_line input[type=text]:hover,.popup .popup_b .popup_line input[type=password]:hover{border-color:#d9d9d9;}
+.popup .popup_b .popup_line input[type=text]:focus,.popup .popup_b .popup_line input[type=password]:focus{outline:none; border-color:#98b9cd; color:#000;}
+.popup .popup_b .popup_options{height:50px; line-height:50px; padding-bottom:30px; padding:10px 38px 30px; border-bottom:1px solid #eae6d5; margin-bottom:30px;}
+.popup .popup_b .popup_options .sign_up{display:block; float:right; height:48px; line-height:48px; background-color:#fc625f; border-bottom:2px solid #e0413e; text-align:center; color:#fff; font-size:18px; text-transform:uppercase; text-decoration:none; width:220px; font-family:'PTSb'; border-radius:4px;}
+.popup .popup_b .popup_options .sign_up:active{position:relative; top:1px;}
+.popup .popup_b .popup_options .sign_in{color:#0099cc; font-family:'PTSb';}
+.popup .popup_b .popup_social{text-align:right; padding:0 38px 30px; position:relative;}
+.popup .popup_b .popup_social span{position:absolute; left:38px; top:0; line-height:34px;}
+.popup .popup_b .popup_social a{display:inline-block; zoom:1; *display:inline; vertical-align:top; width:34px; height:34px; margin-left:7px;}
+.popup .popup_b .popup_social a.s1{background:url(http://img.napishem.com/index/popup_social1.png) center center no-repeat;}
+.popup .popup_b .popup_social a.s2{background:url(http://img.napishem.com/index/popup_social2.png) center center no-repeat;}
+.popup .popup_b .popup_social a.s3{background:url(http://img.napishem.com/index/popup_social3.png) center center no-repeat;}
+.popup .popup_b .popup_social a.s4{background:url(http://img.napishem.com/index/popup_social4.png) center center no-repeat;}
+.popup .popup_b .popup_social a.s5{background:url(http://img.napishem.com/index/popup_social5.png) center center no-repeat;}
+.popup .popup_b .popup_social a.s6{background:url(http://img.napishem.com/index/popup_social6.png) center center no-repeat;}
+
+.bot_popup{display:block; height:120px; background:url(http://img.napishem.com/index/bot_popup_opacity.png); position:fixed; left:0; top:100%; width:100%; margin-top:-121px; box-shadow:0 0 5px #666;}
+.bot_popup .cont{height:120px;}
+.bot_popup .close_popup{display:block; width:30px; height:30px; position:absolute; right:40px; top:50%; margin-top:-15px; background:url(http://img.napishem.com/index/bot_popup_close.png);}
+.bot_popup .make_deal{display:block; height:48px; line-height:48px; background-color:#fc625f; border-bottom:2px solid #e0413e; text-align:center; color:#fff; font-size:18px; text-transform:uppercase; text-decoration:none; width:220px; font-family:'PTSb'; border-radius:4px; position:absolute; top:50%; margin-top:-25px; right:150px;}
+.bot_popup .make_deal:hover{background-color:#ee5b58; border-top-color:#ee5b58;}
+.bot_popup .make_deal:active{background-color:#dc4c49; border-top:2px solid #c8302d; border-bottom:none;}
+.bot_popup .text1{display:block; position:absolute; left:84px; top:0; line-height:120px; font-size:64px; color:#fc625f;font-family:'PTSb';}
+.bot_popup .text2{display:block; position:absolute; left:272px; top:30px; font-size:30px; color:#000; font-family:'PTSb'; line-height:1;}
+
+
+.form_block .form .form_bot .finish:hover{background-color:#ee5b58; border-top-color:#ee5b58;}
+.form_block .form .form_bot .finish:active{background-color:#dc4c49; border-top-color:#c8302d; border-bottom-color:#dc4c49;}
+
+
+
+.header_button.login {
+    border-radius: 4px 0 0 4px;
+}
+.header_button.quit {
+    border-radius: 0 4px 4px 0;
+    font-size: 10px;
+    color: #d2d9e5;
+    text-decoration: none;
+}
+.header_button {
+    float: right;
+    display: block;
+    height: 33px;
+    padding: 0 10px;
+    background: url(http://img.napishem.com/btn.png);
+    margin: 12px 0 0;
+    border-left: 1px solid #2E7A86;
+    border-right: 1px solid #009591;
+    position: relative;
+    z-index: 50;
+    font: 12px Arial, Helvetica, sans-serif;
+    line-height: 32px;
+    color: #fff;
+    text-align: center;
+    top: 20px;
+    left: -3px;
+}
+
+#mobile-text {
+    display: block;
+    width: 130px;
+    height: 40px;
+    background: url(http://img.napishem.com/text-mobile.png) no-repeat 0px 0px;
+    position: relative;
+    left: -82px;
+    top: -121px;
+}
+#mobile-text:hover{background-position: 0 -45px;}
+#rh-copy {
+    display:none !important;
+}
+
+/*.free-call{ cursor:pointer;}
+p.free-call{text-decoration: underline;}
+p.free-call:hover{text-decoration: none;}
+p.free-call:active{text-decoration: none;}
+
+span.free-call{text-decoration: underline;}
+span.free-call:hover{text-decoration: none;}
+span.free-call:active{text-decoration: none;}*/
+
+.free-call-hint-main {
+    display: block;
+    width: 87px;
+    height: 16px;
+    overflow: hidden;
+    border: none;
+    background: url(http://img.napishem.com/Ring_Main.png) no-repeat 0 0px;
+    white-space: nowrap;
+    cursor: pointer;
+    z-index: 100;
+    margin-top: 2px !important;
+    margin-bottom: 3px !important;
+}
+
+.free-call-hint-main-bottom {
+    display: block;
+    width: 87px;
+    height: 16px;
+    overflow: hidden;
+    border: none;
+    background: url(http://img.napishem.com/Ring_Main.png) no-repeat 0 0px;
+    white-space: nowrap;
+    cursor: pointer;
+    z-index: 100;
+    margin-top: 4px !important;
+    margin-bottom: -1px !important;
+}
+
