@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список страниц</title>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="class/js/lightbox/lightbox.css"/>
+    <script type="text/javascript" src="class/js/lightbox/lightbox.js"></script>
+
+    <script>
+        $(function(){
+
+        });
+    </script>
+
+    <style>
+
+
+        html,body{
+            position: relative;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrapper{
+            position: relative;
+            min-height: 100%!important;
+            height: auto;
+        }
+
+        body{
+            background: url('http://wsc-studio.ru/image/pattern.png') repeat;
+        }
+
+        nav {
+            padding: 50px 50px 200px;
+            text-align: center;
+        }
+
+        nav span{
+            display: block;
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+
+        h1{
+            font-size: 36px;
+            margin: 0;
+            font-family: cursive;
+            padding: 50px 0 30px 50px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ol{
+            list-style: decimal;
+            text-align: left;
+        }
+
+        ul > li {
+            border: 1px solid #999;
+            padding-bottom: 10px;
+            display: inline-block;
+            vertical-align: top;
+            width: 300px;
+            margin: 0 30px 30px;
+            background: #4682B4;
+            color: #fff;
+        }
+
+        ul > li > a {
+            padding: 10px;
+            display: block;
+            background: #ddd;
+            color:#333;
+        }
+
+        ul > li > a:hover {
+            background: #999;
+            color:#fff;
+        }
+
+        ol li p {
+            padding: 0;
+        }
+
+        ol li a{
+            color: #fff;
+            text-decoration: none;
+        }
+
+        ol li a:hover{
+            color: #FF8C00;
+            text-decoration: underline;
+        }
+
+        .copyright{
+            position: absolute;
+            bottom: 20px;
+            left: 0;
+            right: 0;
+            text-align: center;
+        }
+
+        .copyright a{
+            color: #4682B4;
+            font-size: 10px;
+            font-family: Georgia, Trebuchet, Trebuchet MS, Verdana;
+            text-decoration: none;
+        }
+        .copyright a >span{
+            color: #FF8C00;
+            border-bottom: 1px solid;
+        }
+
+        .copyright a > span:hover{
+            border-bottom: 1px solid transparent;
+        }
+
+        .copyright > span{
+            display: block;
+            font-size: 9px;
+        }
+
+        .archive-wrap{
+            position: absolute;
+            bottom: 50px;
+            left: 30px;
+        }
+
+        .archive-wrap >span{
+            display: block;
+            margin: 5px 0px;
+            font-size: 14px;
+            color: #000;
+        }
+
+        .download-archive{
+            display: inline-block;
+            height: 40px;
+            padding: 0 20px;
+            background: #4682B4;
+            color: #fff;
+            font-size: 20px;
+            line-height: 40px;
+            text-decoration: none;
+            margin-bottom: 20px;
+        }
+
+        .download-archive:hover{
+            background: #FF8C00;
+        }
+
+        .comment-block{
+            color: #fff;
+            font-size: 14px;
+            line-height: 28px;
+            padding: 0 10px;
+            background: #4682B4;
+        }
+
+    </style>
+</head>
+<body>
+<div class="wrapper">
+
+    <h1>Проект Напишем</h1>
+
+    <nav role="navigation">
+
+        <ul>
+            <li>
+                <a href="1.html">1</a>
+
+                <ol>
+                    <li>
+                        <p>PSD: Mobile_napishem_main.psd</p>
+                        <p>PSD: </p>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <a href="2.html">2</a>
+
+                <ol>
+                    <li>
+                        <p>PSD: Mobile_napishem_LP_Form.psd</p>
+                        <p>PSD:</p>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <a href="3.html">3</a>
+
+                <ol>
+                    <li>
+                        <p>PSD: </p
+                    </li>
+                </ol>
+            </li>
+        </ul>
+
+    </nav>
+
+    <div class="archive-wrap">
+
+        <a href="№" class="download-archive">Архив Напишем</a>
+
+        <span>Комментарий: </span>
+
+        <div class="comment-block">
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+        <a href="http://wsc-studio.ru">&#169; 2015. разработано в <span>WSC-Studio</span> </a>
+        <span></span>
+    </div>
+</div>
+</body>
+</html>
